@@ -1,6 +1,4 @@
 -- Final Project of Thomas feuerstein for CS50x 
--- This is not entirely finished but for now I need some distance from it ;-)
--- some day I'll maybe improve it 
 
 Class  = require 'class'
 push = require 'push'
