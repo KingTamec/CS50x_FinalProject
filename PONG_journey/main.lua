@@ -116,9 +116,8 @@ function love.load()
     }
     sounds['player_scores']:setVolume(0.5)
     sounds['win']:setVolume(0.5)
-    sounds['music1']:setVolume(0) -- should be 0.15
-    sounds['music2']:setVolume(0) -- should be 0.15
-    love.audio.setVolume(1) ------------------------------------SWITCH ON AGAIN-------------------------------------------------------------------
+    sounds['music1']:setVolume(0.15)
+    sounds['music2']:setVolume(0.15) 
 
     love.physics.setMeter(64)
     world = love.physics.newWorld(0, 0, false)
